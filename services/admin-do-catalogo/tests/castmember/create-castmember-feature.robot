@@ -4,6 +4,9 @@ Resource            ../../resources/castmember/castmember-bdd-implementation.rob
 
 *** Test Case ***
 Cenário: Criar novo castmember
+    Dado um castmember
+    Quando criar um castmember
+    Então deve verificar a resposta do metodo criar um castmember
 
 Cenário: Criar novo castmember com o nome em branco
 
